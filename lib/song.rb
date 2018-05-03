@@ -59,8 +59,8 @@ class Song
    end
 
    def self.create_from_filename(name_with_mp3)
-     self.new_from_filename(name_with_mp3)
-     self.save
+     i = self.new_from_filename(name_with_mp3)
+     i.save
    end
 
 
